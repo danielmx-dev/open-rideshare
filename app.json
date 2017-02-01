@@ -1,0 +1,8 @@
+{
+  "name": "Open Rideshare",
+  "description": "Rideshare api",
+  "repository": "https://github.com/dylanrevisited/open-rideshare",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express"],
+  "image": "heroku/nodejs"
+}
