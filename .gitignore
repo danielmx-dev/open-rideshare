@@ -44,3 +44,6 @@ jspm_packages
 # Docker
 Dockerfile
 docker-compose.yml
+
+#configuration
+config/local.*
