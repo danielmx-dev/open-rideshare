@@ -2,7 +2,7 @@ import Koa from 'koa'
 import config from 'config'
 
 // Routers
-import riders from './routes/riders'
+import riders from './riders/routes'
 
 const app = new Koa()
 
