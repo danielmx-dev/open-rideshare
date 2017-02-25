@@ -3,9 +3,9 @@ const pg = require('pg-promise')()
 
 const pool = pg(config.db.uri)
 
-const setPool = () => (ctx, next) => {
+const setPool = () => async (ctx, next) => {
   ctx.state.pool = pool
-  next()
+  await next()
 }
 
 export default setPool
