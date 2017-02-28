@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/dylanrevisited/open-rideshare#readme",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "concurrency-logger": "^2.0.1",
     "config": "^1.25.1",
     "koa": "^2.0.1",
